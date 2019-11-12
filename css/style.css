@@ -89,3 +89,41 @@ main {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+.product-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: groove;
+  border-color: lightgray;
+  border-width: 1px;
+  padding-bottom: 15px;
+}
+
+#products {
+  display: grid;
+  grid-template: column;
+  grid-gap: 10px;
+  margin-top: 20px;
+
+}
+
+.product-header {
+  margin-bottom: -20px;
+}
+
+.product-price {
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product-desc {
+  lest-style: non;
+} 
+
+#products {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
